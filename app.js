@@ -1,4 +1,13 @@
-let primeiroNumero = parseInt(prompt('Escolha um número'));
-let segundoNumero = parseInt(prompt('Escolha outro número'));
-let diferença = Math.abs(primeiroNumero - segundoNumero);
-console.log(diferença);
+const primeiroNumero = parseInt(prompt('Escolha um número'));
+const segundoNumero = parseInt(prompt('Escolha outro número'));
+const diferença = Math.abs(primeiroNumero - segundoNumero);
+
+function maiorNumero(n1,n2,dif){
+    if(n1 > n2) {
+        return `O maior número é ${n1} e a diferença é ${dif}`
+    }else{
+        return `O maior número é ${n2} e a diferença é ${dif}`
+    }
+}
+
+console.log(maiorNumero(primeiroNumero, segundoNumero, diferença));
