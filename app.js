@@ -10,4 +10,4 @@ function maiorNumero(n1,n2,dif){
     }
 }
 
-console.log(maiorNumero(primeiroNumero, segundoNumero, diferença));
+alert(maiorNumero(primeiroNumero, segundoNumero, diferença));
